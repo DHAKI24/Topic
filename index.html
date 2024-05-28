@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/structure.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="Css/tab.css">
+    <link rel="stylesheet" type="text/css" href="Css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:
+ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,
+100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,
+wght@0,100..900;1,100..900&family=Righteous&family=Roboto:ital,wght@0,
+100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&
+family=Work+Sans:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/dbbffdd2ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head">
+                <img src="images/icons8-chat-50.png" alt=".." class="logo">
+                <div class="topic">
+                    Topic
+                </div>
+            </div>
+            <div class="navi">
+                <nav>
+                    <ul>
+                        <li><a href="#"><span>Home</span></a></li>
+                        <li><a href="#">BrowseTopic</a></li>
+                        <li><a href="#">HowItWorks</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Pages</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="#" class="menu-btn"><div class="user" onclick=showSidebar()><img src="/images/icons8-user-24.png" alt=".." class="admin"></div></a>
+
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick=hideSidebar()><i class="fa-solid fa-x"></i></a></li>
+                        <li><a href="#"><span>Home</span></a></li>
+                        <li><a href="#">BrowseTopic</a></li>
+                        <li><a href="#">HowItWorks</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Pages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="gallery">
+            <div class="content">
+                <div class="mainline">Discover. Learn. Enjoy</div>
+                <div class="subline">platform for creatives around the world</div>
+                <input type="text" placeholder="Design, Code....." class="info">
+            </div>
+        </div>
+
+        <div class="dark">
+            <div class="card1">
+                <div class="top">
+                    <div class="web">web design</div>
+                    <a href="#"><div class="num1">14</div></a>
+                    <div class="text">Web Design
+                        When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.
+                    </div>
+                </div>
+                <div class="bottom">
+                    <img src="images/gall.png" alt=".." class="cartoon">
+                </div>
+            </div>
+            <div class="card2">
+                <div class="opaque">
+                    <div class="finance">Finance</div>
+                    <a href="#"><div class="num2">24</div></a>
+                    <div class="mess">
+                        Topic Listing Template includes homepage, listing page, detail page, 
+                        and contact page. You can feel free to edit and adapt for your CMS requirements.
+                    </div>
+                    <a href="#"><div class="learn">Learn More</div></a>
+                    <div class="under">
+                        <div class="share">Share:</div>
+                        <div class="social">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><img src="/images/icons8-facebook-24.png" alt=".." class="facebook"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-instagram-24.png" alt=".." class="instagram"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-twitter-24.png" alt=".." class="twitter"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <a href="#"><div class="mark"><img src="/images/icons8-bookmark-64.png" alt=".." class="bookmark"></div></a>
+                    </div>
+                </div>
+                <div class="glass"></div>
+            </div>
+        </div>
+
+        <div class="browse">
+            <div class="browsetopic">
+                Browse Topics
+            </div>
+            <div class="linelist">
+                <nav>
+                    <ul>
+                        <a href="#"><li>Design</li></a>
+                        <a href="#"><li>Marketing</li></a>
+                        <a href="#"><li>Finance</li></a>
+                        <a href="#"><li>Music</li></a>
+                        <a href="#"><li>Education</li></a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cover">
+                <div class="cover1">
+                    <div class="upper">
+                        <div class="title">Web design</div>
+                        <a href="#"><div class="remain">24</div></a>
+                        <div class="role">Topic listing template based on Bootstrap 5</div>
+                    </div>
+                    <div class="lower"><img src="/images/gall.png" class="lower-pic"></div>
+                </div>
+                <div class="cover2">
+                    <div class="upper">
+                        <div class="title">Graphic</div>
+                        <a href="#"><div class="remain">75</div></a>
+                        <div class="role">Lorem ipsum dolor sit amet consecutor</div>
+                    </div>
+                    <div class="lower"><img src="/images/graphic.png" class="lower-pic"></div>
+                </div>
+                <div class="cover3">
+                    <div class="upper">
+                        <div class="title">Logo design</div>
+                        <a href="#"><div class="remain">100</div></a>
+                        <div class="role">Lorem ipsum dolor sit amet consecutor</div>
+                    </div>
+                    <div class="lower"><img src="/images/logo design.png" class="lower-pic"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="work">
+            <div class="solid">
+            <div class="how-does">How does it work?</div>
+                <div class="text-area1">
+                    <div class="fill-logo">
+                        <img src="/images/icons8-search-150.png" alt=".." class="search">
+                    </div>
+                    <div class="words">
+                        <div class="short">Search your favourite topic</div>
+                        <div class="long">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed 
+                             esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?
+                        </div>
+                    </div>
+                </div>
+                <div class="text-area2">
+                    <div class="fill-logo">
+                        <img src="/images/book.png" alt=".." class="book">
+                    </div>
+                    <div class="words">
+                        <div class="short">Read & Enjoy</div>
+                        <div class="long">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed 
+                             esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?
+                        </div>
+                    </div>
+                </div>
+                <div class="text-area3">
+                    <div class="fill-logo">
+                        <img src="/images/mark.png" alt=".." class="last">
+                    </div>
+                    <div class="words">
+                        <div class="short">Bookmark & Keep it for yourself</div>
+                        <div class="long">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed 
+                             esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-line">Want to learn more?</div>
+                <a href="#"><div class="button-below">Check out youtube</div></a>
+            </div>
+            <div class="sheet"></div>
+        </div>
+
+        <div class="faq">
+            <div class="top-head">
+                Frequently Asked Questions
+            </div>
+            <div class="bottom-part">
+                <div class="left">
+                    <img src="/images/faq_graphic.jpg" alt=".." class="people">
+                </div>
+                <div class="right">
+                    <details open>
+                        <summary>What is Topic Listing</summary>
+                        Topic Listing is free Bootstrap 5 CSS template. You are not allowed to 
+                        redistribute this template on any other template collection website 
+                        without our permission. Please contact TemplateMo for more detail. Thank you.
+                    </details>
+                    <details>
+                        <summary>How To Find a Topic</summary>
+                        You can search on Google with keywords such as templatemo portfolio, 
+                        templatemo one-page layouts, photography, digital marketing, etc.
+                    </details>
+                    <details>
+                        <summary>Does it need to be Paid</summary>
+                        You can modify any of this with custom CSS or overriding our default variables. 
+                        It's also worth noting that just about any HTML can go within the 
+                        <a href="#">.accordion-body</a>, though the transition does limit overflow.
+                    </details>
+                </div>
+            </div>
+        </div>
+
+        <div class="before-last">
+            <div class="touch">
+                Get In Touch
+            </div>
+            <div class="panel">
+                <div class="map"></div>
+                <div class="hqadd">
+                    <div class="office">Head Office</div>
+                    <div class="add">Bay St &, Larkin St, San Francisco, CA 94109, United States</div>
+                    <hr>
+                    <div class="phone">Phone:<a href="#">305-240-9671</a></div>
+                    <div class="mail">E-mail:<a href="#">info@company.com</a></div>
+                </div>
+                <div class="offadd">
+                    <div class="office">Dubai office</div>
+                    <div class="add">Burj Park, Downtown Dubai, United Arab Emirates</div>
+                    <hr>
+                    <div class="phone">Phone:<a href="#">110-220-3400</a></div>
+                    <div class="mail">E-mail:<a href="#">info@company.com</a></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="col-1">
+                <div class="hope">
+                    <img src="images/icons8-chat-50.png" alt=".." class="last-logo">
+                    <div class="topic">
+                        Topic
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <nav>
+                    <ul>
+                        <li><span>Resource</span></li>
+                        <li>Home</li>
+                        <li>How it works</li>
+                        <li>FAQs</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-3">
+                <nav>
+                    <ul>
+                        <li><span>Information</span></li>
+                        <li>305-240-9671</li>
+                        <li>info@company.com</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-4">
+                <div class="select">
+                    <select>
+                        <option>English</option>
+                        <option>Tamil</option>
+                        <option>Malayalam</option>
+                        <option>Telugu</option>
+                    </select>
+                </div>
+                <p>
+                    Copyright © 2048 Topic Listing Center. All rights reserved.
+                </p>
+                <div class="end">Template:<a href="#">Unknown</a></div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
