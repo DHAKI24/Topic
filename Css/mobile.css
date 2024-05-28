@@ -207,7 +207,7 @@ header{
 .card2{
     width: 80%;
     height: 400px;
-    background-image: url(/images/139502\ \(1\).jpg);
+    background-image: url(images/139502\ \(1\).jpg);
     border-radius: 20px;
     box-shadow: 22px 23px 47px -5px rgba(0,0,0,0.75);
     position: absolute;
@@ -408,7 +408,7 @@ header{
     height: 130vh;
     font-family: roboto;
     color: white;
-    background-image: url(/images/pexels-fauxels-3183172.jpg);
+    background-image: url(images/pexels-fauxels-3183172.jpg);
     background-size: cover;
 }
 
